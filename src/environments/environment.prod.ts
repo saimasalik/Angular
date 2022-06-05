@@ -1,6 +1,6 @@
 import { Environment } from '@abp/ng.core';
 
-const baseUrl = 'https://localhost:4200';
+const baseUrl = 'https://saimianie-bookstore.netlify.app';
 
 export const environment = {
   production: true,
@@ -10,7 +10,7 @@ export const environment = {
     logoUrl: '',
   },
   oAuthConfig: {
-    issuer: 'https://localhost:44387',
+    issuer: 'http://saimalakim36-001-site1.gtempurl.com',
     redirectUri: baseUrl,
     clientId: 'BookStore_App',
     responseType: 'code',
@@ -19,7 +19,7 @@ export const environment = {
   },
   apis: {
     default: {
-      url: 'https://localhost:44387',
+      url: 'http://saimalakim36-001-site1.gtempurl.com',
       rootNamespace: 'Acme.BookStore',
     },
   },
